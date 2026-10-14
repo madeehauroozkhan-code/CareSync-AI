@@ -1,0 +1,59 @@
+# ============================================================
+# AI Healthcare Coordination Platform – Backend Requirements
+# ============================================================
+# Cleaned for Python 3.12 hackathon MVP
+
+# ── Core Framework ──────────────────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+python-multipart==0.0.12
+
+# ── Firebase / Google Cloud ──────────────────────────────────
+firebase-admin==6.6.0
+google-cloud-firestore==2.19.0
+google-cloud-storage==2.18.2
+
+# ── Redis ────────────────────────────────────────────────────
+redis[hiredis]==5.1.1
+
+# ── RabbitMQ (AMQP) ──────────────────────────────────────────
+aio-pika==9.4.3
+
+# ── Qdrant Vector DB ─────────────────────────────────────────
+qdrant-client==1.12.1
+
+# ── LangChain / LangGraph ────────────────────────────────────
+langchain==0.3.12
+langchain-core>=0.3.27
+langchain-google-genai==2.0.9
+langgraph==0.3.12
+
+# ── LLM Providers ────────────────────────────────────────────
+google-generativeai==0.8.3
+openai==1.57.4
+groq==0.12.0
+
+# ── Structured Logging ───────────────────────────────────────
+structlog==24.4.0
+python-json-logger==2.0.7
+
+# ── HTTP Client ──────────────────────────────────────────────
+httpx==0.27.2
+aiohttp==3.11.10
+
+# ── Utilities ────────────────────────────────────────────────
+tenacity==9.0.0
+cachetools==5.5.0
+orjson==3.10.11
+
+# ── Testing ──────────────────────────────────────────────────
+pytest==8.3.4
+pytest-asyncio==0.24.0
+pytest-cov==6.0.0
+fakeredis==2.26.1
+pytest-mock==3.14.0
+pypdf==5.1.0
+sentence-transformers

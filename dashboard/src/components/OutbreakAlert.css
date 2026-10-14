@@ -1,0 +1,107 @@
+/* OutbreakAlert Styles */
+
+.outbreak-alert {
+  background: var(--surface-color, #ffffff);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.outbreak-alert h3 {
+  margin: 0 0 12px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.no-alerts {
+  text-align: center;
+  color: #22c55e;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+
+.alert-card {
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 10px;
+  border-left: 4px solid;
+}
+
+.alert-card.risk-safe { border-color: #22c55e; background: #f0fdf4; }
+.alert-card.risk-medium { border-color: #f59e0b; background: #fffbeb; }
+.alert-card.risk-high { border-color: #f97316; background: #fff7ed; }
+.alert-card.risk-critical { border-color: #ef4444; background: #fef2f2; }
+
+.alert-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.risk-icon {
+  font-size: 1.5rem;
+}
+
+.alert-header h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #1e293b;
+}
+
+.risk-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #64748b;
+}
+
+.alert-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.alert-stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.stat-value {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.alert-prediction {
+  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+.alert-actions h5 {
+  margin: 8px 0 4px;
+  font-size: 0.8rem;
+  color: #475569;
+}
+
+.alert-actions ul {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 0.8rem;
+  color: #475569;
+}
+
+.alert-actions li {
+  margin-bottom: 3px;
+}

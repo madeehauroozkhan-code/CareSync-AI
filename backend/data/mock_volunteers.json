@@ -1,0 +1,8 @@
+[
+  {"id": "V001", "name": "Ramesh Kumar", "type": "NGO Volunteer", "lat": 25.6100, "lng": 85.1300, "phone": "+91XXXXXXXX01", "skills": ["first_aid"]},
+  {"id": "V002", "name": "Sunita Devi", "type": "Community Health Worker", "lat": 25.6200, "lng": 85.1100, "phone": "+91XXXXXXXX02", "skills": ["nursing", "first_aid"]},
+  {"id": "V003", "name": "Amit Singh", "type": "Local Driver", "lat": 25.6000, "lng": 85.1400, "phone": "+91XXXXXXXX03", "skills": ["vehicle_boat"]},
+  {"id": "V004", "name": "Rekha Sharma", "type": "Blood Donor (O+)", "lat": 25.5950, "lng": 85.1450, "phone": "+91XXXXXXXX04", "skills": ["blood_donor"]},
+  {"id": "V005", "name": "Manoj Yadav", "type": "District Officer Liaison", "lat": 25.6300, "lng": 85.0900, "phone": "+91XXXXXXXX05", "skills": ["coordination"]},
+  {"id": "V006", "name": "Pooja Kumari", "type": "NGO Volunteer", "lat": 25.5150, "lng": 85.3050, "phone": "+91XXXXXXXX06", "skills": ["first_aid", "boat_owner"]}
+]

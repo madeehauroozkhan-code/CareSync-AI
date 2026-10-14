@@ -1,0 +1,71 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+venv/
+env/
+ENV/
+.venv/
+*.log
+.pytest_cache/
+.mypy_cache/
+
+# --- Node / React (frontend + dashboard) ---
+node_modules/
+dist/
+build/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Environment variables / secrets ---
+.env
+.env.*
+*.env
+**/.env*
+.env.local
+.env.*.local
+backend/config/*.json
+firebase-credentials*.json
+*.pem
+*.key
+client_secret*.json
+token.json
+*serviceAccount*.json
+backend/serviceAccount.json
+serviceAccount.json
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Demo data generated at runtime ---
+backend/data/live_hospital_status.json
+
+# --- Antigravity / Claude Code local state (if any) ---
+.antigravity/
+.claude/settings.local.json
+
+# --- Documents ---
+*.doc
+*.docx
+docs/
+
+# --- Local debug / scratch files ---
+*.txt
+*-fix.md
+commit_changes.py
+quick_groq_test.py
+rag-pipeline-local-embeddings-mmr.md
+test_orchestrator.py
+groq-gpt-oss-120b-setup.md
+

@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    /* Professional sleek dashboard background */
+    background-color: #F8FAFC;
+    background-image: 
+      radial-gradient(at 100% 0%, hsla(210, 20%, 94%, 1) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, hsla(210, 20%, 94%, 1) 0px, transparent 50%);
+    background-attachment: fixed;
+    color: #072537;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Override any default vite CSS that might have leaked if previously not completely removed */
+#root {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  text-align: left;
+  border: none;
+  min-height: 100vh;
+  display: block;
+}
+
+/* Custom scrollbar for lists */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

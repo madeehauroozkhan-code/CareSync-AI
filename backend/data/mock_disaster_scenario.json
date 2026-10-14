@@ -1,0 +1,13 @@
+{
+  "scenario_name": "Flood in Fatuha Block",
+  "description": "Heavy rainfall causes flash flooding across low-lying villages near Fatuha, Patna district. Simulated for the 'Simulate Flood Event' demo button.",
+  "epicenter": {"lat": 25.6100, "lng": 85.1300},
+  "affected_villages": [
+    {"name": "Fatuha Village A", "lat": 25.5100, "lng": 85.3100, "estimated_population": 1200},
+    {"name": "Fatuha Village B", "lat": 25.5150, "lng": 85.3050, "estimated_population": 900},
+    {"name": "Danapur Colony", "lat": 25.6350, "lng": 85.0450, "estimated_population": 2000}
+  ],
+  "simulated_case_count": 50,
+  "common_symptom_tags": ["breathing_difficulty", "high_fever", "body_pain", "fracture"],
+  "notes": "Used by POST /simulate-disaster to generate a burst of Critical cases clustered near the epicenter, so the Emergency Response Agent's predictive redistribution and the Community Response Agent's volunteer activation can be demonstrated live."
+}
