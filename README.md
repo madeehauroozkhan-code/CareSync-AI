@@ -20,11 +20,11 @@
 <a id="live-demo"></a>
 ## 🚀 Live Demo
 
-The entire CareSync AI platform is designed for cloud deployment:
+The entire CareSync AI platform is currently deployed and running live on the cloud:
 
-- **Patient Interface (Frontend):** https://caresync-ai-frontend.onrender.com *(Update with your deployed link)*
-- **Hospital/Admin Dashboard:** https://caresync-ai-dashboard.onrender.com *(Update with your deployed link)*
-- **Backend API (FastAPI):** `https://caresync-ai.onrender.com` *(Update with your deployed link)*
+- **Patient Interface (Frontend):** https://ai-sahayak-frontend.onrender.com/
+- **Hospital/Admin Dashboard:** https://ai-sahayak-dashboard.onrender.com/
+- **Backend API (FastAPI):** https://ai-sahayak-jxxw.onrender.com
 - [Core Intelligence — The Hospital Scoring Model](#core-intelligence)
 - [Full System Flow](#full-system-flow)
 - [Tech Stack](#tech-stack)
