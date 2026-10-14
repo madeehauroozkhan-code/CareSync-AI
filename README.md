@@ -29,6 +29,7 @@ The entire CareSync AI platform is currently deployed and running live on the cl
 - [Full System Flow](#full-system-flow)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
+- [⚙️ Local Setup & Quick Start](#quick-start)
 - [Author & Maintainer](#author)
 - [Contributing](#contributing)
 - [Future Scope](#future-scope)
@@ -257,6 +258,69 @@ CareSync-AI/
 
 ---
 
+
+---
+
+<a id="quick-start"></a>
+## ⚙️ Local Setup & Quick Start
+
+Follow these simple steps to run the complete CareSync AI platform on your local machine:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/madeehauroozkhan-code/CareSync-AI.git
+cd CareSync-AI
+```
+
+### 2. Backend Setup (FastAPI & Multi-Agent AI System)
+> **Requirement:** Python 3.10+ installed
+
+```bash
+# 1. Create and activate virtual environment
+python -m venv venv
+
+# Windows (Command Prompt / PowerShell):
+venv\Scripts\activate
+
+# Mac / Linux:
+source venv/bin/activate
+
+# 2. Install backend dependencies
+pip install -r requirements.txt
+
+# 3. Configure environment variables (.env)
+copy .env.example .env    # On Mac/Linux: cp .env.example .env
+
+# 4. Start the FastAPI backend server
+uvicorn backend.main:app --reload --port 8000
+```
+- **Backend API:** `http://localhost:8000`
+- **Interactive Swagger Docs:** `http://localhost:8000/docs`
+
+---
+
+### 3. Patient Interface Setup (Frontend)
+In a **new terminal window**:
+```bash
+cd frontend
+npm install
+npm run dev
+```
+- **Frontend App:** `http://localhost:5173`
+
+---
+
+### 4. Admin Command Center Setup (Dashboard)
+In another **new terminal window**:
+```bash
+cd dashboard
+npm install
+npm run dev
+```
+- **Admin Dashboard:** `http://localhost:5174`
+
+---
+
 <a id="author"></a>
 ## 👤 Author & Maintainer
 
@@ -279,7 +343,7 @@ Contributions are welcome — bug fixes, feature enhancements, or documentation 
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-Please give appropriate credit to the original authors if you use or modify this project.
+Please give appropriate credit to **Madeeha Urooz Khan** ([CareSync AI](https://github.com/madeehauroozkhan-code/CareSync-AI)) if you use, reference, or build upon this platform for projects, research, or hackathons.
 
 ---
 
